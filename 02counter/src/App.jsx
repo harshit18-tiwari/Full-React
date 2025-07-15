@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
       <h1>Chai aur react</h1>
       <h2>Counter Vlue:{counter} </h2>
 
-      <button 
+      <button // on button we are using onClick method in which we are passing {addvalue} only reference of the function, kyoki we want k click krne p cahnge hoo 
       onClick={addValue}>Add value{counter}</button>
       <br/>
       <button

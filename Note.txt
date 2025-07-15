@@ -1,0 +1,5 @@
+Most of the time we were insiede the source(src) folder
+UI updation is controll by react
+Hooks --> import {useState} from 'react'
+function App() k andhar likhna hai
+        //useState --> it is responsible to propagate the change in the DOM
